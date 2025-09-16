@@ -1,0 +1,43 @@
+.bowls-main{
+    margin-top: 30px;
+    .bowls-inner{
+        background-color: #d19ea3;
+        padding: 40px;
+        text-align: center;
+        .bowls-title{
+            color: #fff2e0;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-weight: 600;
+            margin-bottom: 15px;
+            /* font-size: 1.2rem; */
+        }
+
+        .bowls-body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            .group{
+                img{
+                   width: 220px;
+                }
+                p{
+                    text-align: center;
+                    font-size: 10px;
+                    color: white;
+                    text-transform: uppercase;
+                    letter-spacing: 1px;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+

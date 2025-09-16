@@ -1,0 +1,192 @@
+.gong-main {
+    background-color: #feebd6;
+    /* padding: 20px 0; */
+    text-align: center;
+    padding-top: 20px;
+
+    .gong-titles {
+        .gong-title {
+            /* font-size: 18px; */
+            color: #e09a8d;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-weight: 600;
+            margin-bottom: 15px;
+
+        }
+
+        .sub-desc {
+            font-size: 1rem;
+            font-weight: bold;
+            color: #986a6b !important;
+            letter-spacing: 2px;
+            margin: 0;
+        }
+
+        .desc {
+            font-size: 14px;
+            color: #121111be;
+            line-height: 1.5;
+            letter-spacing: 1px;
+            margin: 5px 0 0 0;
+            margin-bottom: 30px;
+            padding: 0 20px;
+            text-align: center;
+        }
+    }
+
+    .gong-products-main {
+
+        .gong-product-inner {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            align-items: center;
+            justify-content: space-evenly;
+            gap: 0;
+
+            .gond-card {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 0;
+
+                .gong-card-inner {
+                    border: 1px solid rgb(189 160 160);
+                }
+
+                .gong-card-img {
+                    padding: 20px;
+                    background-color: white;
+
+                    img {
+                        height: 200px;
+                        width: auto;
+                        object-fit: cover;
+                    }
+
+                    .gong-product-min-title {
+                        font-size: 12px;
+                        color: #000000df;
+                        padding-bottom: 10px;
+                        padding-left: 10px;
+                        padding-right: 10px;
+
+                        p {
+                            margin: 0;
+                            text-align: right;
+                            text-transform: capitalize;
+                            font-weight: 500;
+                        }
+                    }
+                }
+
+                .gong-product-desc-main {
+                    background-color: #feebd6;
+                    padding: 20px;
+
+                    .gong-product-desc-inner {
+                        .gong-product-title {
+                            color: #000000c5;
+                            text-transform: uppercase;
+                            letter-spacing: 2px;
+                            font-weight: 600;
+                            font-size: 12px;
+                            text-align: left;
+                        }
+
+                        .gong-lower {
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            margin-top: 10px;
+
+                            p {
+                                margin: 0;
+                                padding: 0;
+                                font-size: 11px;
+                                color: #000000df;
+                                font-weight: 500;
+                                word-spacing: 2px;
+                                text-transform: capitalize;
+                                max-width: 250px;
+                                text-align: left;
+                            }
+
+                            .gong-cart-btn {
+                                display: inline-block;
+                                padding: 5px 26px;
+                                border-radius: 26px;
+                                border: none;
+                                background: #02984b;
+                                color: #fff;
+                                text-decoration: none;
+                                font-weight: 500;
+                                letter-spacing: 1px;
+                                font-size: 14px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .gong-explore {
+        background-color: #feebd6;
+        padding: 30px 0 0 0;
+    }
+
+    .gong-explore2 {
+        padding-right: 20px;
+        display: flex;
+        justify-content: right;
+    }
+
+    .gong-explore-inner {
+        background-color: white;
+        padding: 8px 8px;
+        border-radius: 26px;
+    }
+
+    .gong-explore-btn {
+        background: linear-gradient(90deg, #9b3e46, #d05b61);
+        color: white;
+        font-size: 12px;
+        font-weight: bold;
+        padding: 5px 10px;
+        border: none;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+
+    .gong-explore-btn .arrow {
+        background: white;
+        color: #9b3e46;
+        border-radius: 50%;
+        padding: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 12px;
+        transition: all 0.3s ease;
+    }
+
+    .gong-explore-btn:hover {
+        transform: translateY(-2px);
+    }
+
+    .gong-explore-btn:hover .arrow {
+        background: #fff5f5;
+        transform: rotate(90deg);
+    }
+
+    .gong-explore-bottom {
+        background-color: white;
+        padding: 20px;
+    }
+
+}

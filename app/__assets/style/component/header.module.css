@@ -73,7 +73,7 @@
   border-radius: 50%;
 }
 
-.header-right i {
+.header-right .faicon {
   font-size: 18px;
   color: #aaa;
   cursor: pointer;
