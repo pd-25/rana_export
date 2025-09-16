@@ -1,0 +1,118 @@
+/* Topbar */
+.topbar {
+  background: #fde6de;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 14px;
+  letter-spacing: 5px;
+  color: #333333d3;
+  font-weight: 500;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 40px;
+  background: #fff;
+  position: relative;
+  z-index: 1000;
+}
+
+/* Logo */
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 70px;
+  margin-right: 10px;
+}
+
+.logo-text {
+  font-size: 18px;
+  color: #600000;
+  line-height: 1.2;
+}
+
+.logo-text span {
+  display: block;
+  font-weight: bold;
+}
+
+/* Navigation */
+.nav {
+  display: flex;
+  gap: 40px;
+}
+
+.nav a {
+  text-decoration: none;
+  font-size: 15px;
+  letter-spacing: 1px;
+  color: #a17878;
+  font-weight: 500;
+}
+
+.nav a:hover {
+  color: #600000;
+}
+
+/* Right icons */
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.header-right img.flag {
+  height: 22px;
+  width: 22px;
+  border-radius: 50%;
+}
+
+.header-right i {
+  font-size: 18px;
+  color: #aaa;
+  cursor: pointer;
+}
+
+/* Hamburger (hidden on desktop) */
+.hamburger {
+  display: none;
+  font-size: 22px;
+  cursor: pointer;
+  color: #600000;
+}
+
+/* Responsive */
+@media (max-width: 900px) {
+  .nav {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #fff;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    display: none;
+    padding: 20px 0;
+    gap: 20px;
+    border-top: 1px solid #eee;
+  }
+
+  .nav.active {
+    display: flex;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .header {
+    padding: 12px 20px;
+  }
+  
+}

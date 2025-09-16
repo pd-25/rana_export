@@ -1,0 +1,118 @@
+    .footer {
+        background: #7a4851;
+        color: #fff;
+
+        .footer-inner {
+            padding: 30px;
+            display: grid;
+            grid-template-columns: 1fr 2fr 1fr;
+            gap: 40px;
+
+            .footer-left {
+                .footer-title {
+                    width: fit-content !important;
+                    border-bottom: 4px solid #a9636c;
+                    padding: 10px;
+                    margin-bottom: 10px;
+
+                    h2 {
+                        font-size: 20px;
+                    }
+                }
+
+                .content {
+                    font-size: 14px;
+                    font-weight: 400;
+                    margin-bottom: 10px;
+                    line-height: 23px;
+
+                }
+            }
+
+            .footer-mid {
+                .footer-mid-inner {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    gap: 30px;
+
+                    .mm {
+                        margin-bottom: 80px;
+                    }
+                }
+
+                .mid-title {
+                    width: fit-content !important;
+                    border-bottom: 4px solid #a9636c;
+                    padding: 10px;
+                    margin-bottom: 10px;
+
+                    h2 {
+                        font-size: 20px;
+                    }
+                }
+
+                .content ul li {
+                    font-size: 14px;
+                    font-weight: 400;
+                    margin-bottom: 10px;
+                    /* line-height: 23px; */
+                    list-style: none;
+                    cursor: pointer;
+
+                    a {
+                        text-decoration: none;
+                        color: white;
+                    }
+
+                }
+            }
+
+            .footer-right {
+                .mid-title {
+                    width: fit-content !important;
+                    border-bottom: 4px solid #a9636c;
+                    padding: 10px;
+                    margin-bottom: 10px;
+                    font-size: 16px;
+
+
+                    h2 {
+                        font-size: 20px;
+                    }
+                }
+
+                .ranaji {
+                    margin-bottom: 20px;
+                }
+
+                .content ul {
+                    margin-top: 30px;
+                }
+
+                .content ul li {
+                    font-size: 14px;
+                    font-weight: 400;
+                    margin-bottom: 10px;
+                    /* line-height: 23px; */
+                    list-style: none;
+                    cursor: pointer;
+
+                    a {
+                        text-decoration: none;
+                        color: white;
+                    }
+
+                }
+            }
+        }
+    }
+
+    .bottom-footer{
+        background: #574143;
+        color: white;
+        text-align: center;
+        padding: 10px 0;
+        font-size: 12px;
+        letter-spacing: 1px;
+        text-transform: capitalize;
+    }
