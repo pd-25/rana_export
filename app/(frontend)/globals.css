@@ -6,13 +6,36 @@
   --muted: #8d7371;
 }
 
+@font-face {
+  font-family: 'OlyfordPro';
+  src: url('../__assets/fonts/OlyfordPro-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'OlyfordPro';
+  src: url('../__assets/fonts/OlyfordPro-Bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'PERTILLI';
+  src: url('../__assets/fonts/PERTILI.TTF') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
+
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'OlyfordPro', sans-serif;
   color: var(--text-dark);
   background: #fff;
 }

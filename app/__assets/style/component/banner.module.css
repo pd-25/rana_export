@@ -26,24 +26,25 @@
   /* padding-bottom: 23%; */
 }
 .hero h1 {
-  font-family: "Playfair Display", serif;
+  font-family: 'PERTILLI', serif;
   font-size: 35px;
   letter-spacing: 4px;
   text-transform: uppercase;
   font-weight: 500;
+  color: #986a6b;
 }
 .hero p {
   margin-top: 10px;
   font-size: 19px;
   letter-spacing: 2px;
-  color: var(--muted);
+  color: #6c6c6c;
 }
 .cta {
   display: inline-block;
   margin-top: 20px;
   padding: 12px 26px;
   border-radius: 26px;
-  background: var(--cta);
+  background: #f9b9a5;
   color: #fff;
   text-decoration: none;
   font-weight: 500;
