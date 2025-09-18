@@ -39,6 +39,12 @@
   letter-spacing: 2px;
   color: #6c6c6c;
 }
+.ctaButton{
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+  vertical-align: middle;
+}
 .cta {
   display: inline-block;
   margin-top: 20px;
@@ -51,6 +57,14 @@
   letter-spacing: 1px;
   text-transform: uppercase;
   font-size: 14px;
+  font-weight: 500;
+}
+
+.ctaButton{
+  width: 30px;
+  height: 30px;
+  margin-right: 8px;
+  vertical-align: middle;
 }
 
 /* Bowl */
@@ -62,8 +76,8 @@
   z-index: 3;
 }
 .bowl img {
-  width: 530px;
-  max-width: 60vw;
+  width: 300px;
+  max-width: 30vw;
   height: auto;
 }
 

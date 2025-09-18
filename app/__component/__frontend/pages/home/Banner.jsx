@@ -3,6 +3,7 @@ import styles from '@/app/__assets/style/component/banner.module.css'
 import Image from 'next/image'
 import hero1 from '@/app/__assets/images/hero1.png'
 import hero2 from '@/app/__assets/images/light-bg-2.png'
+import flower from '@/app/__assets/images/flower.png'
 
 const Banner = () => {
     return (
@@ -12,7 +13,7 @@ const Banner = () => {
                 <h1>EXPLORE MINDFULNESS THROUGH SACRED SOUND</h1>
                 <p>with Silent Mind Singing Bowls</p>
                 <a href="#" className={styles.cta}>
-                    EXPLORE THE SILENCE
+                 <Image src={flower} alt="" className={styles.ctaButton} />   EXPLORE THE SILENCE
                 </a>
             </div>
             {/* Bowl Image */}
