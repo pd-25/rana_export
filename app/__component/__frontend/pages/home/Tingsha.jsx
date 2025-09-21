@@ -2,125 +2,49 @@ import React from 'react'
 import styles from '@/app/__assets/style/component/tingsha.module.css'
 import Image from 'next/image'
 import hero1 from '@/app/__assets/images/hero1.png'
+import Products from './Products'
 
 const Tingsha = () => {
+    const products = [
+        {
+            id: 1,
+            productTitle: 'Round sevel chakra bowl',
+            category: 'Round sevel chakra bowl',
+            image: hero1,
+            desc: 'Hand made singing bowls',
+        },
+        {
+            id: 1,
+            productTitle: 'Round sevel chakra bowl',
+            category: 'Round sevel chakra bowl',
+            image: hero1,
+            desc: 'Hand made singing bowls',
+        },
+        {
+            id: 1,
+            productTitle: 'Round sevel chakra bowl',
+            category: 'Round sevel chakra bowl',
+            image: hero1,
+            desc: 'Hand made singing bowls',
+        },
+        {
+            id: 1,
+            productTitle: 'Round sevel chakra bowl',
+            category: 'Round sevel chakra bowl',
+            image: hero1,
+            desc: 'Hand made singing bowls',
+        },
+    ];
     return (
-
         <>
-            {/* Tingsha */}
-            <section className={styles["tingash-main"]}>
-                <div className={styles["tingash-inner"]}>
-                    <div className={styles["tingash-titles"]}>
-                        <h1 className={styles["tingash-title"]}>TINGASH</h1>
-                        <p className={styles["sub-desc"]}>
-                            TRADITION IN EVERY STRIKE, HERMONY IN EVERY TONE
-                        </p>
-                        <p className={styles["desc"]}>
-                            Each Gong carries the wishdom of Lorem ipsum dolor sit amet
-                            consectetur adipisicing elit. Laboriosam, repellendus Lorem ipsum
-                            dolor sit amet.
-                        </p>
-                    </div>
-                    <div className={styles["tingash-cards-main"]}>
-                        {/* card */}
-                        <div className={styles["tingash-products-main"]}>
-                            <div className={styles["tingash-product-inner"]}>
-                                <div className={styles["tingash-card"]}>
-                                    <div className={styles["tingash-card-inner"]}>
-                                        <div className={styles["tingash-card-img"]}>
-                                            <Image src={hero1} alt="" />
-                                            <div className={styles["tingash-product-min-title"]}>
-                                                <p>Lorem ipsum dolor sit amet</p>
-                                            </div>
-                                        </div>
-                                        <div className={styles["tingash-product-desc-main"]}>
-                                            <div className={styles["tingash-product-desc-inner"]}>
-                                                <p className={styles["tingash-product-title"]}>Product Title Here</p>
-                                                <div className={styles["tingash-lower"]}>
-                                                    <p>Lorem ipsum dolor sit amet amet amet amet amet amet</p>
-                                                    <button className={styles["tingash-cart-btn"]}>Cart</button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                {/* Repeat Cards */}
-                                <div className={styles["tingash-card"]}>
-                                    <div className={styles["tingash-card-inner"]}>
-                                        <div className={styles["tingash-card-img"]}>
-                                            <Image src={hero1} alt="" />
-                                            <div className={styles["tingash-product-min-title"]}>
-                                                <p>Lorem ipsum dolor sit amet</p>
-                                            </div>
-                                        </div>
-                                        <div className={styles["tingash-product-desc-main"]}>
-                                            <div className={styles["tingash-product-desc-inner"]}>
-                                                <p className={styles["tingash-product-title"]}>Product Title Here</p>
-                                                <div className={styles["tingash-lower"]}>
-                                                    <p>Lorem ipsum dolor sit amet amet amet amet amet amet</p>
-                                                    <button className={styles["tingash-cart-btn"]}>Cart</button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className={styles["tingash-card"]}>
-                                    <div className={styles["tingash-card-inner"]}>
-                                        <div className={styles["tingash-card-img"]}>
-                                            <Image src={hero1} alt="" />
-                                            <div className={styles["tingash-product-min-title"]}>
-                                                <p>Lorem ipsum dolor sit amet</p>
-                                            </div>
-                                        </div>
-                                        <div className={styles["tingash-product-desc-main"]}>
-                                            <div className={styles["tingash-product-desc-inner"]}>
-                                                <p className={styles["tingash-product-title"]}>Product Title Here</p>
-                                                <div className={styles["tingash-lower"]}>
-                                                    <p>Lorem ipsum dolor sit amet amet amet amet amet amet</p>
-                                                    <button className={styles["tingash-cart-btn"]}>Cart</button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className={styles["tingash-card"]}>
-                                    <div className={styles["tingash-card-inner"]}>
-                                        <div className={styles["tingash-card-img"]}>
-                                            <Image src={hero1} alt="" />
-                                            <div className={styles["tingash-product-min-title"]}>
-                                                <p>Lorem ipsum dolor sit amet</p>
-                                            </div>
-                                        </div>
-                                        <div className={styles["tingash-product-desc-main"]}>
-                                            <div className={styles["tingash-product-desc-inner"]}>
-                                                <p className={styles["tingash-product-title"]}>Product Title Here</p>
-                                                <div className={styles["tingash-lower"]}>
-                                                    <p>Lorem ipsum dolor sit amet amet amet amet amet amet</p>
-                                                    <button className={styles["tingash-cart-btn"]}>Cart</button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    {/* Explore Section */}
-                    <div className={styles["tingash-explore"]}>
-                        <div className={styles["tingash-explore2"]}>
-                            <div className={styles["tingash-explore-inner"]}>
-                                <button className={styles["tingash-explore-btn"]}>
-                                    EXPLORE MORE
-                                    <span className={styles["arrow"]}>➔</span>
-                                </button>
-                            </div>
-                        </div>
-                        <div className={styles["tingash-explore-bottom"]} />
-                    </div>
-                </div>
-            </section>
+            <Products
+                data={products}
+                heading="TINGSHA"
+                subheading="SOUND THAT GROUNDS, VIBRATION THAT HEALS"
+                description="More than just a musical note — each singing bowl creates powerful frequencies that help release stress, deepen focus, and invite inner peace into your daily life."
+                bgColor="#ffe9f0"
+            />
         </>
-
 
 
     )

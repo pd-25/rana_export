@@ -13,7 +13,7 @@ const ProductsVideo = () => {
                     {/* Video Card 1 */}
                     <div className={styles["video-card"]}>
                         <div className={styles["video-thumbnail"]}>
-                            <Image src={videos} alt="Video 1" width={400} height={225} />
+                            <Image src={videos} alt="Video 1" width={500} height={185} />
                             <div className={styles["play-icon"]}>►</div>
                         </div>
                         <div className={styles["video-controls"]}>
@@ -38,7 +38,7 @@ const ProductsVideo = () => {
                     {/* Video Card 2 */}
                     <div className={styles["video-card"]}>
                         <div className={styles["video-thumbnail"]}>
-                            <Image src={videos} alt="Video 2" width={400} height={225} />
+                            <Image src={videos} alt="Video 2" width={500} height={185} />
                             <div className={styles["play-icon"]}>►</div>
                         </div>
                         <div className={styles["video-controls"]}>
@@ -63,7 +63,7 @@ const ProductsVideo = () => {
                     {/* Video Card 3 */}
                     <div className={styles["video-card"]}>
                         <div className={styles["video-thumbnail"]}>
-                            <Image src={videos} alt="Video 3" width={400} height={225} />
+                            <Image src={videos} alt="Video 3" width={500} height={185} />
                             <div className={styles["play-icon"]}>►</div>
                         </div>
                         <div className={styles["video-controls"]}>

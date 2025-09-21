@@ -60,7 +60,7 @@ const Footer = () => {
                 <div className={styles.content}>
                   <ul>
                     <li><a href="#">Newsletter</a></li>
-                    <li><a href="#">become a customer</a></li>
+                    <li><a href="#">Become a customer</a></li>
                     <li><a href="#">Testimonials</a></li>
                     <li><a href="#">Payment</a></li>
                   </ul>

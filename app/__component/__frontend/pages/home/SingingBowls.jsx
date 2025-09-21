@@ -5,6 +5,38 @@ import hero1 from '@/app/__assets/images/hero1.png'
 import Products from './Products'
 
 const SingingBowls = () => {
+    const products = [
+        {
+            id: 1,
+            productTitle: 'Round sevel chakra bowl',
+            category: 'Round sevel chakra bowl',
+            image: hero1,
+            desc: 'Hand made singing bowls',
+        },
+        {
+            id: 1,
+            productTitle: 'Round sevel chakra bowl',
+            category: 'Round sevel chakra bowl',
+            image: hero1,
+            desc: 'Hand made singing bowls',
+        },
+        {
+            id: 1,
+            productTitle: 'Round sevel chakra bowl',
+            category: 'Round sevel chakra bowl',
+            image: hero1,
+            desc: 'Hand made singing bowls',
+        },
+        {
+            id: 1,
+            productTitle: 'Round sevel chakra bowl',
+            category: 'Round sevel chakra bowl',
+            image: hero1,
+            desc: 'Hand made singing bowls',
+        },
+    ];
+
+
     return (
         <>
             {/* singing-bowls-section */}
@@ -23,22 +55,29 @@ const SingingBowls = () => {
                         <button className={`${styles['bowl-btn']} ${styles.accent}`}>OTHERS PRODUCT</button>
                     </div>
 
-                    <div className={styles['bowls-info']}>
-                        <h3>
-                            SINGING BOWL <span className={styles['circle-icon']}>◯</span>
-                        </h3>
-                        <h4>SOUND THAT GROUNDS, VIBRATION THAT HEALS</h4>
-                        <p>
-                            More than just a musical note — each singing bowl creates powerful
-                            frequencies that help release stress, deepen focus, and invite inner
-                            peace into your daily life.
-                        </p>
-                    </div>
+
                 </div>
-      <Products />
+                <Products
+                    data={products}
+                    heading="SINGING BOWL"
+                    subheading="SOUND THAT GROUNDS, VIBRATION THAT HEALS"
+                    description="More than just a musical note — each singing bowl creates powerful frequencies that help release stress, deepen focus, and invite inner peace into your daily life."
+                    bgColor="#efcfce"
+                />
+
+                <Products
+                    data={products}
+                    bgColor="#efcfce"
+                />
+
+                <Products
+                    data={products}
+                    bgColor="#efcfce"
+                />
+
 
             </section>
-            
+
         </>
 
     )

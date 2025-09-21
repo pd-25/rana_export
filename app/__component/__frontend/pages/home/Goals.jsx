@@ -2,6 +2,7 @@ import React from 'react'
 import styles from '@/app/__assets/style/component/goals.module.css'
 import Image from "next/image";
 import goal1 from '@/app/__assets/images/goal1.jpg'
+import knowmorebtn from '@/app/__assets/images/knowmorebtn.png'
 
 const Goals = () => {
     return (
@@ -27,7 +28,7 @@ const Goals = () => {
                                 </p>
                             </div>
                         </div>
-                        <button className={styles["know-more-btn"]}>Know More</button>
+                        <button className={styles["know-more-btn"]}>Know More <Image src={knowmorebtn} alt="" width={25} height={25}/></button>
                     </div>
 
                     <div className={styles["goals-right"]}>
@@ -48,7 +49,9 @@ const Goals = () => {
                                 </p>
                             </div>
                         </div>
-                        <button className={styles["know-more-btn"]}>Know More</button>
+                        <button className={styles["know-more-btn"]}>Know More 
+                        <Image src={knowmorebtn} alt="" width={25} height={25}/>
+                        </button>
                     </div>
                 </div>
             </section>

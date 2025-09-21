@@ -17,13 +17,14 @@
                 .left {
 
                     h2 {
-                        font-size: 18px;
-                        color: #e09a8d;
+                        font-size: 30px;
+                        color: #E19B8E;
+                        text-transform: uppercase;
                     }
 
                     p {
                         margin-top: 10px;
-                        font-size: 12px;
+                        font-size: 16px;
                         color: black;
                         line-height: 1.6;
                     }
@@ -36,9 +37,10 @@
                     }
 
                     p {
-                        font-size: 12px;
+                        font-size: 16px;
                         color: black;
                         line-height: 1.2;
+                        font-style: italic;
                     }
                 }
 
@@ -59,13 +61,13 @@
                 .left {
 
                     h2 {
-                        font-size: 18px;
-                        color: #c57e80;
+                        font-size: 30px;
+                        color: #E19B8E;
                     }
 
                     p {
                         margin-top: 10px;
-                        font-size: 12px;
+                        font-size: 16px;
                         color: black;
                         line-height: 1.6;
                     }
@@ -78,21 +80,25 @@
                     }
 
                     p {
-                        font-size: 12px;
+                        font-size: 16px;
                         color: black;
                         line-height: 1.2;
+                        font-style: italic;
                     }
                 }
             }
         }
 
         .know-more-btn {
+            display: flex;
+            align-items: center;
             background: linear-gradient(90deg, #9b3e46, #d05b61);
             color: white;
-            font-size: 12px;
+            font-size: 16px;
+            font-weight: 600;
             letter-spacing: 2px;
             text-transform: uppercase;
-            padding: 5px 10px;
+            padding: 8px 15px;
             border: none;
             border-radius: 3px;
             display: flex;

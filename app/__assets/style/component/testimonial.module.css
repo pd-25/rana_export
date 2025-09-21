@@ -1,7 +1,7 @@
-.testimonial-section{
-    margin-top: 30px;
-    background-color: #fff5f2;
-    padding: 30px;
+.testimonial-section {
+  margin-top: 30px;
+  background-color: #fff5f2;
+  padding: 30px;
 }
 
 .testimonial-title {
@@ -9,8 +9,9 @@
   color: #e09a8d;
   text-transform: uppercase;
   font-weight: bold;
-  margin-bottom: 40px;
+  margin-bottom: 60px;
   letter-spacing: 1px;
+  font-size: 40px;
 }
 
 /* Container */
@@ -19,7 +20,7 @@
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
   padding: 0 40px;
-  max-width: 1200px;
+  max-width: 1300px;
   margin: 0 auto;
 }
 
@@ -28,6 +29,7 @@
   background: white;
   border-radius: 8px;
   padding: 40px 20px 20px;
+  width: 100%;
   position: relative;
   text-align: center;
   border: 1px solid #deb8aa;
@@ -47,6 +49,7 @@
   background: #fff7f5;
   border-radius: 50%;
   padding: 5px;
+  padding-bottom: 0;
   border-bottom: 1px solid #deb8aa;
 }
 
@@ -65,20 +68,22 @@
 }
 
 .testimonial-quote {
-    display: flex;
-    align-items: center;
-    justify-content: start;
-  img.quote{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+
+  img.quote {
     width: 40px;
     height: 40px;
   }
 }
 
 .testimonial-quote-right {
-    display: flex;
-    align-items: center;
-    justify-content: end;
-  img.quote{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+
+  img.quote {
     width: 40px;
     height: 40px;
   }
@@ -99,7 +104,8 @@
 
 /* Product Video */
 .products-video-section {
-  background: #f2e2e1;
+  background: #f2e2e1 url('../../images/sBG2.png') no-repeat top center;
+  background-size: cover;
   text-align: center;
   padding: 50px 20px;
 }
@@ -109,6 +115,7 @@
   color: #c57e80;
   margin-bottom: 30px;
   letter-spacing: 1px;
+  font-size: 40px;
 }
 
 .video-container {
@@ -123,7 +130,7 @@
   border-radius: 6px;
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
   overflow: hidden;
-  width: 300px;
+  width: 400px;
   text-align: left;
 }
 
@@ -184,10 +191,10 @@
 }
 
 
-
+/* fetures */
 .features-section {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   gap: 50px;
   padding: 50px 20px;
@@ -197,25 +204,24 @@
 }
 
 .feature-card {
-  max-width: 200px;
+  max-width: 250px;
 }
 
 .feature-card img {
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
   margin-bottom: 15px;
 }
 
 .feature-card h3 {
-  font-size: 18px;
+  font-size: 26px;
   font-weight: bold;
   color: #c57e80;
   margin-bottom: 8px;
 }
 
 .feature-card p {
-  font-size: 14px;
+  font-size: 15px;
   color: #846d6d;
   line-height: 1.4;
 }
-
