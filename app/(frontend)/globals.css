@@ -32,12 +32,16 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  position: relative;
+
 }
 
 body {
   font-family: 'OlyfordPro', sans-serif;
   color: var(--text-dark);
   background: #fff;
+    max-width: 1440px;
+  margin: 0 auto;
 }
 
 
