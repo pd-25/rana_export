@@ -2,6 +2,7 @@ import React from 'react'
 import styles from '@/app/__assets/style/component/singingbowls.module.css'
 import Image from 'next/image'
 import hero1 from '@/app/__assets/images/hero1.png'
+import Products from './Products'
 
 const SingingBowls = () => {
     return (
@@ -34,7 +35,10 @@ const SingingBowls = () => {
                         </p>
                     </div>
                 </div>
+      <Products />
+
             </section>
+            
         </>
 
     )

@@ -1,11 +1,14 @@
 .singing-bowls-section {
   position: relative;
-  background: #efcfce; /* soft peach */
-  padding: 70px 0 40px 0;
-  display: flex;
+  background: url('../../images/Lightbg-3.png');
+  padding: 70px 0 0px 0;
+  /* display: flex; */
   justify-content: center;
   align-items: center;
   overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
 }
 
 .mandala-bg {
@@ -28,6 +31,7 @@
   max-width: 800px;
   margin: 0 auto;
   text-align: center;
+  padding: 220px 0 40px 0;
 }
 
 .singing-bowls-content h2 {

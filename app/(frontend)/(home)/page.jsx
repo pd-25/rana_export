@@ -20,7 +20,6 @@ const page = () => {
     <>
       <Banner />
       <SingingBowls />
-      <Products />
       <Gong />
       <Tingsha />
       <BellAndDorjee />
