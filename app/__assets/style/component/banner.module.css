@@ -41,10 +41,11 @@
 }
 
 .hero p {
-  margin-top: 10px;
-  font-size: 19px;
-  letter-spacing: 2px;
-  color: #6c6c6c;
+     margin-top: 40px;
+    font-size: 19px;
+    letter-spacing: 2px;
+    color: #6c6c6c;
+    margin-bottom: 40px;
 }
 
 .ctaButton {
