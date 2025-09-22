@@ -29,10 +29,11 @@
       .card-img {
         padding: 20px;
         background-color: white;
+            text-align: center;
 
         img {
           height: 300px;
-          width: 100%;
+          width: 80%;
           object-fit: contain;
         }
 
@@ -48,7 +49,7 @@
             text-align: right;
             text-transform: capitalize;
             font-weight: 500;
-            font-size: 18px;
+            font-size: 16px;
             color: #000000;
           }
         }
@@ -64,7 +65,7 @@
             text-transform: uppercase;
             letter-spacing: 1px;
             font-weight: 700;
-            font-size: 20px;
+            font-size: 16px;
           }
 
           .lower {
@@ -72,13 +73,13 @@
             justify-content: space-between;
             align-items: center;
             margin-top: 40px;
-            gap: 50px;
+            gap: 25px;
 
             p {
               flex: 1 1 50%;
               margin: 0;
               padding: 0;
-              font-size: 16px;
+              font-size: 14px;
               color: #000000;
               font-weight: 700;
               word-spacing: 2px;

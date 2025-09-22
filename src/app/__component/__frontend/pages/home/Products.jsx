@@ -22,7 +22,7 @@ const Products = ({ data = [], heading = '', subheading = '', description = '', 
                     <div className={styles['bowls-info']} >
                         <h3>
                             {heading} <span className={styles['circle-icon']}>
-                                <Image src={downArrowCircle} alt="" width={60} height={60}/>
+                                <Image src={downArrowCircle} alt="" width={60} height={60} />
                             </span>
                         </h3>
                         {subheading && <h4>{subheading}</h4>}
@@ -44,9 +44,13 @@ const Products = ({ data = [], heading = '', subheading = '', description = '', 
                                 </div>
                                 <div className={styles['product-desc-main']}>
                                     <div className={styles['product-desc-inner']}>
-                                        {item?.productTitle && <p className={styles['product-title']}>{item.productTitle}</p>}
+                                        {item?.productTitle && <p className={styles['product-title']}>{item.productTitle.length > 30
+                                            ? item.productTitle.slice(0, 30) + "..."
+                                            : item.productTitle}</p>}
                                         <div className={styles.lower}>
-                                            {item?.desc && <p>{item.desc}</p>}
+                                            {item?.desc && <p>{item.desc.length > 50
+      ? item.desc.slice(0, 45) + ".." 
+      : item.desc}</p>}
                                             <button>
                                                 <Image src={plus} width={15} height={15} alt="" />
                                                 Cart

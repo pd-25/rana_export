@@ -3,36 +3,41 @@ import styles from '@/app/__assets/style/component/singingbowls.module.css'
 import Image from 'next/image'
 import hero1 from '@/app/__assets/images/hero1.png'
 import Products from './Products'
+import product1 from '@/app/__assets/images/products/product-1.webp'
+import product2 from '@/app/__assets/images/products/product-2.webp'
+import product3 from '@/app/__assets/images/products/product-3.webp' 
+import product4 from '@/app/__assets/images/products/product-4.webp'
+
 
 const SingingBowls = () => {
     const products = [
         {
             id: 1,
-            productTitle: 'Round sevel chakra bowl',
+            productTitle: 'BENGALI TRADITIONAL BOWL',
             category: 'Round sevel chakra bowl',
-            image: hero1,
-            desc: 'Hand made singing bowls',
+            image: product1,
+            desc: 'Tibetan Singing Bowl Chakra Carving',
         },
         {
             id: 2,
-            productTitle: 'Round sevel chakra bowl',
+            productTitle: 'TIBETAN HAND MADE SINGING BOWL',
             category: 'Round sevel chakra bowl',
-            image: hero1,
-            desc: 'Hand made singing bowls',
+            image: product2,
+            desc: 'Carving Singing Bowl Hand Made Singing Bowl',
         },
         {
             id: 3,
-            productTitle: 'Round sevel chakra bowl',
+            productTitle: 'JHAMKA BOWL',
             category: 'Round sevel chakra bowl',
-            image: hero1,
-            desc: 'Hand made singing bowls',
+            image: product3,
+            desc: 'Round Singing Bowl Seven Chakra Bowl',
         },
         {
             id: 4,
-            productTitle: 'Round sevel chakra bowl',
+            productTitle: 'ANTIQUE TIBETAN SINGING BOWL',
             category: 'Round sevel chakra bowl',
-            image: hero1,
-            desc: 'Hand made singing bowls',
+            image: product4,
+            desc: 'Antique Tibetan Kobera Singing Bowl Khara Singing Bowl',
         },
     ];
 
