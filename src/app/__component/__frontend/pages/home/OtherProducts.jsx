@@ -4,31 +4,31 @@ import Image from 'next/image'
 import hero1 from '@/app/__assets/images/hero1.png'
 import Products from './Products'
 
-const Stick = () => {
+const OtherProducts = () => {
     const products = [
         {
-            id: 1,
+            id: 18,
             productTitle: 'Round sevel chakra bowl',
             category: 'Round sevel chakra bowl',
             image: hero1,
             desc: 'Hand made singing bowls',
         },
         {
-            id: 1,
+            id: 19,
             productTitle: 'Round sevel chakra bowl',
             category: 'Round sevel chakra bowl',
             image: hero1,
             desc: 'Hand made singing bowls',
         },
         {
-            id: 1,
+            id: 20,
             productTitle: 'Round sevel chakra bowl',
             category: 'Round sevel chakra bowl',
             image: hero1,
             desc: 'Hand made singing bowls',
         },
         {
-            id: 1,
+            id: 21,
             productTitle: 'Round sevel chakra bowl',
             category: 'Round sevel chakra bowl',
             image: hero1,
@@ -39,16 +39,15 @@ const Stick = () => {
         <>
             <Products
                 data={products}
-                heading="STICK"
+                heading="OTHER PRODUCTS"
                 subheading="SOUND THAT GROUNDS, VIBRATION THAT HEALS"
                 description="More than just a musical note — each singing bowl creates powerful frequencies that help release stress, deepen focus, and invite inner peace into your daily life."
-                bgColor="#ffe9f0"
+                bgColor="rgb(255 229 219)"
             />
-
         </>
 
 
     )
 }
 
-export default Stick
+export default OtherProducts

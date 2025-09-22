@@ -1,10 +1,10 @@
 import React from 'react'
-import styles from '@/app/__assets/style/component/tingsha.module.css'
+import styles from '@/app/__assets/style/component/gong.module.css'
 import Image from 'next/image'
 import hero1 from '@/app/__assets/images/hero1.png'
 import Products from './Products'
 
-const OtherProducts = () => {
+const Gong = () => {
     const products = [
         {
             id: 1,
@@ -14,21 +14,21 @@ const OtherProducts = () => {
             desc: 'Hand made singing bowls',
         },
         {
-            id: 1,
+            id: 2,
             productTitle: 'Round sevel chakra bowl',
             category: 'Round sevel chakra bowl',
             image: hero1,
             desc: 'Hand made singing bowls',
         },
         {
-            id: 1,
+            id: 3,
             productTitle: 'Round sevel chakra bowl',
             category: 'Round sevel chakra bowl',
             image: hero1,
             desc: 'Hand made singing bowls',
         },
         {
-            id: 1,
+            id: 4,
             productTitle: 'Round sevel chakra bowl',
             category: 'Round sevel chakra bowl',
             image: hero1,
@@ -39,10 +39,10 @@ const OtherProducts = () => {
         <>
             <Products
                 data={products}
-                heading="OTHER PRODUCTS"
+                heading="GONG"
                 subheading="SOUND THAT GROUNDS, VIBRATION THAT HEALS"
                 description="More than just a musical note — each singing bowl creates powerful frequencies that help release stress, deepen focus, and invite inner peace into your daily life."
-                bgColor="rgb(255 229 219)"
+                bgColor="#feebd6"
             />
         </>
 
@@ -50,4 +50,4 @@ const OtherProducts = () => {
     )
 }
 
-export default OtherProducts
+export default Gong

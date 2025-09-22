@@ -7,28 +7,28 @@ import Products from './Products'
 const BellAndDorjee = () => {
   const products = [
     {
-      id: 1,
+      id: 5,
       productTitle: 'Round sevel chakra bowl',
       category: 'Round sevel chakra bowl',
       image: hero1,
       desc: 'Hand made singing bowls',
     },
     {
-      id: 1,
+      id: 6,
       productTitle: 'Round sevel chakra bowl',
       category: 'Round sevel chakra bowl',
       image: hero1,
       desc: 'Hand made singing bowls',
     },
     {
-      id: 1,
+      id: 7,
       productTitle: 'Round sevel chakra bowl',
       category: 'Round sevel chakra bowl',
       image: hero1,
       desc: 'Hand made singing bowls',
     },
     {
-      id: 1,
+      id: 8,
       productTitle: 'Round sevel chakra bowl',
       category: 'Round sevel chakra bowl',
       image: hero1,
